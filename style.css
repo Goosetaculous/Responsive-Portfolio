@@ -1,0 +1,97 @@
+/* Color the whole backgroound */
+body {
+    background:url("assets/images/ep_naturalwhite.png")
+}
+
+/* Top Header */
+header {
+    background-color: #ffffff;
+    border-bottom: thin solid grey;
+    top:0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+}
+/* Name box */
+.title-name {
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    float:left
+}
+/* Navigation */
+nav {
+    width: 200px;
+    padding:5px;
+    float:right;
+    color: grey;
+}
+
+#links-text {
+    float:left;
+}
+
+.top-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+
+/* Styling the main content */
+
+
+.wrapper-content {
+    width: 960px;
+    margin-top: 100px; /* push from the top */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Style the section*/
+section {
+    background-color: #ffffff;
+    color: teal;
+    padding: 25px;
+    font-family: Arial;
+    width: 640px;
+    float: left;
+}
+.content-text {
+    color: grey;
+}
+
+/* style the image */
+img {
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Style the side bar */
+aside {
+    text-align: center;
+    float: right;
+    padding:10px;
+    background-color: #ffffff;
+}
+/* Add more spacing for all paragraphs*/
+p{
+    line-height: 150%;
+}
+
+/* Style the footer */
+footer {
+    background-color: dimgrey;
+    border-top: thick solid teal;
+    bottom: 0px;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
