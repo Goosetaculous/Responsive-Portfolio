@@ -1,6 +1,8 @@
 /* Color the whole backgroound */
 body {
-    background:url("assets/images/ep_naturalwhite.png")
+    background:url("assets/images/ep_naturalwhite.png");
+    width: 100%;
+    margin: 0px;
 }
 
 /* Top Header */
@@ -56,11 +58,13 @@ section {
     color: teal;
     padding: 25px;
     font-family: Arial;
+    font-size: larger;
     width: 640px;
     float: left;
 }
 .content-text {
     color: grey;
+    font-weight: 100;
 }
 
 /* style the image */
@@ -76,6 +80,7 @@ aside {
     float: right;
     padding:10px;
     background-color: #ffffff;
+    color: teal;
 }
 /* Add more spacing for all paragraphs*/
 p{
@@ -93,5 +98,6 @@ footer {
     position: fixed;
     text-align: center;
     width: 100%;
+    margin: 0px;
 }
 
