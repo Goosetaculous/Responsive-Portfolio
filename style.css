@@ -18,8 +18,7 @@ header {
 .title-name {
     background-color: teal;
     color: white;
-    padding: 5px;
-    width: 200px;
+    padding: 10px;
     float:left
 }
 /* Navigation */
@@ -29,6 +28,11 @@ nav {
     float:right;
     color: grey;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 #links-text {
     float:left;
@@ -65,6 +69,7 @@ section {
 .content-text {
     color: grey;
     font-weight: 100;
+    line-height: 40px;
 }
 
 /* style the image */
@@ -99,5 +104,52 @@ footer {
     text-align: center;
     width: 100%;
     margin: 0px;
+}
+
+/* Input */
+input, textarea {
+    width: 100%;
+    line-height: 2em;
+}
+/* Style the button */
+button {
+    background-color: #4aaaa5; /* Teal */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    height: 250px;
+    width: 300px;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Add background images to each box */
+.box1 {
+    background:url("assets/images/html.png");
+}
+.box2 {
+    background:url("assets/images/html.png");}
+.box3 {
+    background:url("assets/images/css.png");}
+.box4 {
+    background:url("assets/images/node.png");}
+.box5 {
+    background:url("assets/images/mongo.png");}
+
+/* Style the inner div for each box */
+.box-content {
+    background-color: teal;
+    text-align: center;
+    margin-top: 200px;
+
 }
 
