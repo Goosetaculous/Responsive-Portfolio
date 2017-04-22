@@ -33,11 +33,9 @@ a{
     text-decoration: none;
 }
 
-
 #links-text {
     float:left;
 }
-
 .top-header {
     margin-left: auto;
     margin-right: auto;
@@ -53,6 +51,7 @@ a{
     margin-top: 100px; /* push from the top */
     margin-left: auto;
     margin-right: auto;
+    height: 700px;
 }
 
 
@@ -134,7 +133,7 @@ button {
 
 /* Add background images to each box */
 .box1 {
-    background:url("assets/images/html.png");
+    background:url("assets/images/js.png");
 }
 .box2 {
     background:url("assets/images/html.png");}
@@ -150,6 +149,148 @@ button {
     background-color: teal;
     text-align: center;
     margin-top: 200px;
+    color:#ffffff;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .top-header {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .wrapper-content {
+        width: 80%;
+    }
+    .content{
+        height:1050px
+    }
+    section {
+        width: 450px;
+    }
+    #me {
+        float: none;
+        border-radius: 0%;
+        height: 200px;
+        width: 300px;
+    }
+
+    .section-box {
+        height: 1540px;
+    }
+    .box1, .box2, .box3, .box4, .box5 {
+        width:440px;
+        background-repeat: no-repeat;
+    }
+    .contact {
+        height: 550px;
+    }
+    textarea {
+        height: 200px;
+    }
 
 }
+
+@media only screen and (max-width: 768px) {
+    section {
+        width: 530px;
+    }
+    #me {
+        float: left;
+        border-radius: 40%;
+        height: 200px;
+        width: 300px;
+    }
+    p{
+        text-align: left;
+    }
+    aside{
+        margin-top: 20px;
+        width: 560px;
+        float: left;
+    }
+    h1 {
+        text-align: left;
+    }
+    .box1, .box2, .box3, .box4, .box5{
+        height: 250px;
+        width: 245px;
+        float:left;
+        margin-right: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .box1 {
+        background:url("assets/images/js250x250.png");
+    }
+    .box2 {
+        background:url("assets/images/html250x250.png");}
+    .box3 {
+        background:url("assets/images/css250x250.png");}
+    .box4 {
+        background:url("assets/images/node250x250.png");}
+    .box5 {
+        background:url("assets/images/mongodb250x250.png");}
+
+
+
+
+
+
+    .section-box {
+        height: 900px;
+    }
+    .wrapper-content-portfolio {
+        height:1300px;
+    }
+    .wrapper-content-contact {
+        height: 1000px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+   section {
+       width: 85%;
+   }
+    .section-box {
+        height: 100%;
+        width: 440px;
+    }
+    #me {
+        float: none;
+        border-radius: 0%;
+        width: 400px;
+        height: 300px;
+    }
+    .wrapper-content {
+        height:100%;
+    }
+    .box1, .box2, .box3, .box4, .box5 {
+        width:440px;
+        background-repeat: no-repeat;
+    }
+    .box1 {
+        background:url("assets/images/js450x250.png");
+    }
+    .box2 {
+        background:url("assets/images/html450x250.jpg");
+    }
+    .box3 {
+        background:url("assets/images/css450x250.png");
+    }
+
+    .box4 {
+        background:url("assets/images/node450x250.png");
+    }
+    .box5 {
+        background:url("assets/images/mongo450x250.png");
+    }
+    aside {
+        width: 470px;
+        margin-bottom: 200px;
+    }
+}
+
 
