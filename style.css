@@ -161,13 +161,14 @@ button {
         width: 80%;
     }
     .wrapper-content {
-        width: 80%;
+        width: 440px;
     }
     .content{
         height:1050px
     }
     section {
         width: 450px;
+        margin-bottom: 10px;
     }
     #me {
         float: none;
@@ -188,6 +189,11 @@ button {
     }
     textarea {
         height: 200px;
+    }
+    aside {
+        width: 470px;
+        float:left;
+        margin-bottom: 200px;
     }
 
 }
@@ -234,11 +240,6 @@ button {
     .box5 {
         background:url("assets/images/mongodb250x250.png");}
 
-
-
-
-
-
     .section-box {
         height: 900px;
     }
@@ -248,12 +249,17 @@ button {
     .wrapper-content-contact {
         height: 1000px;
     }
+    aside {
+        width: 470px;
+        float:left;
+        margin-bottom: 200px;
+    }
 
 }
 
 @media only screen and (max-width: 640px) {
    section {
-       width: 85%;
+       width: 440px;
    }
     .section-box {
         height: 100%;
