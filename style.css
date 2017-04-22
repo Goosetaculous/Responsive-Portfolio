@@ -156,9 +156,11 @@ button {
 
 @media only screen and (max-width: 980px) {
     .top-header {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+        width: 530px;
+        margin-right: 180px;
+    }
+    nav {
+        float: right;
     }
     .wrapper-content {
         width: 440px;
@@ -191,16 +193,20 @@ button {
         height: 200px;
     }
     aside {
-        width: 470px;
+        width: 480px;
         float:left;
         margin-bottom: 200px;
+        text-align: left;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
-    section {
-        width: 530px;
+    .top-header{
+        width: 680px;
+    }
+    .title-name{
+        margin-left: 165px;
     }
     #me {
         float: left;
@@ -250,14 +256,31 @@ button {
         height: 1000px;
     }
     aside {
-        width: 470px;
+        width: 560px;
         float:left;
+        text-align: left;
         margin-bottom: 200px;
     }
 
 }
 
 @media only screen and (max-width: 640px) {
+    .title-name {
+        width: 640px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    nav{
+        float:left;
+        width:500px;
+    }
+    .nav-center {
+        padding: 0px 70px 0px 70px;
+    }
+    .nav-left{
+        margin-left: 170px;
+    }
+
    section {
        width: 440px;
    }
@@ -272,7 +295,7 @@ button {
         height: 300px;
     }
     .wrapper-content {
-        height:100%;
+       margin-top: 200px;
     }
     .box1, .box2, .box3, .box4, .box5 {
         width:440px;
@@ -295,9 +318,11 @@ button {
         background:url("assets/images/mongo450x250.png");
     }
     aside {
-        width: 470px;
+        text-align: left;
+        width: 480px;
         margin-bottom: 200px;
     }
+
 }
 
 
